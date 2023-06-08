@@ -11,6 +11,6 @@ client_key = os.path.join(certificates_path, "board001.key")
 # или иного сервера MQTT
 # Проверьте что IP или hostname соответствуют тому значению,
 # которое вы применяете для обычного названия
-mqtt_server_host = "192.168.1.101"
+mqtt_server_host = "127.0.0.1"
 mqtt_server_port = 8883
 mqtt_keepalive = 60
